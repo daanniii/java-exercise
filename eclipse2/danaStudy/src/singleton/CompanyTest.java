@@ -6,4 +6,4 @@ public class CompanyTest {
 		Company myCompany2 = Company.getInstance();
 		System.out.println(myCompany1 == myCompany2);
 	}
-}
+  }
