@@ -1,6 +1,6 @@
 package scheduler;
 
-public class Scheduler {
+public interface Scheduler {
 	public void getNextCall();
 	public void sendCallToAgent();
 }
