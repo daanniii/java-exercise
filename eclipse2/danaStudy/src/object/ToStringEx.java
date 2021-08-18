@@ -8,6 +8,10 @@ class Book {
 		this.bookNumber = bookNumber;
 		this.bookTitle = bookTitle;
 	}
+	@Override
+	public String toString() {
+		return bookTitle + "," + bookNumber;
+	}
 }
 
 public class ToStringEx {
